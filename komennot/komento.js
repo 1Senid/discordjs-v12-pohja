@@ -12,11 +12,12 @@ exports.run = async(bot, message, args) => {
   Esimerkiksi:
   message.channel.send("Moi");
   
-  */
-  
+  */ 
+
+  message.channel.send("Moi");
 }
 
 exports.komento = {
-  nimi: 'komento',
-  alias: ['komento2'],
+  nimi: 'testi',
+  alias: ['testi2'],
 }
